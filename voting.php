@@ -86,7 +86,6 @@ function allVotes(){
    
 </div>
 <script>
-  console.log("here")
   document.addEventListener('DOMContentLoaded', function () {
   // do something here ...
   document.getElementById('btn').addEventListener("click",function(){
@@ -105,7 +104,6 @@ function allVotes(){
 
 
   document.getElementById('btn1').addEventListener("click",function(){
-    console.log('heres')
     $.ajax({
     method: "POST",
     url: "votingProcess.php",
